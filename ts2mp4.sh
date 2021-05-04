@@ -36,3 +36,4 @@ ffmpeg -i all.ts -acodec copy -vcodec copy all.mp4 > /dev/null
 popd
 cp $TMP_DIR/all.mp4 "$NAME.mp4"
 echo "COPY: $NAME.mp4"
+rm -fR $TMP_DIR
