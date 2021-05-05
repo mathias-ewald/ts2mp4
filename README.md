@@ -6,3 +6,7 @@ Usage:
 ```bash
 ./ts2mp4.sh https://foo.bar/playlist.m3u8 "my-video"
 ```
+
+Requires:
+- wget
+- ffmpeg
